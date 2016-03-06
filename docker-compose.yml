@@ -1,0 +1,9 @@
+nginx-web-access:
+  container_name: nginx-web-access
+  restart: always
+  image: evaou/nginx-web-access
+  volumes:
+    - $NGINX_DATA_PATH:/usr/share/nginx/html
+  tty: true
+  ports:
+    - "80:80/tcp"
