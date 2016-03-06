@@ -1,5 +1,5 @@
 NGINX Web Access
 =======================
-Use docker-compose to run NGINX server providing web access to local files
+Provide web access to local files
 
 Here's the related [repository on Docker Hub](https://hub.docker.com/r/evaou/nginx-web-access/)
